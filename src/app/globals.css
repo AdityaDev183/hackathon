@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-background: #0B0B0F;
+  --color-foreground: hsl(0 0% 98%);
+
+  --color-card: #121217;
+  --color-card-foreground: hsl(0 0% 98%);
+
+  --color-popover: #121217;
+  --color-popover-foreground: hsl(0 0% 98%);
+
+  --color-primary: #8B5CF6; /* Purple base */
+  --color-primary-foreground: hsl(0 0% 98%);
+
+  --color-secondary: #1E1B4B;
+  --color-secondary-foreground: hsl(0 0% 98%);
+
+  --color-muted: #1E1B4B;
+  --color-muted-foreground: hsl(215 20.2% 65.1%);
+
+  --color-accent: #312E81;
+  --color-accent-foreground: hsl(0 0% 98%);
+
+  --color-destructive: #FF0000;
+  --color-destructive-foreground: hsl(0 0% 98%);
+
+  --color-border: #1E1B4B;
+  --color-input: #1E1B4B;
+  --color-ring: #8B5CF6;
+
+  /* Energy Colors */
+  --color-energy-red: #FF0000;
+  --color-energy-orange: #FF8C00;
+  --color-energy-yellow: #FFD700;
+
+  /* AI Theme Gradients */
+  --color-ai-purple: #8B5CF6;
+  --color-ai-blue: #3B82F6;
+
+  --radius-lg: 0.75rem;
+  --radius-md: calc(0.75rem - 2px);
+  --radius-sm: calc(0.75rem - 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+  }
+
+  .glass-card {
+    @apply bg-card/40 backdrop-blur-md border border-white/5 hover:border-white/10 transition-all;
+  }
+
+  .btn-energy-red {
+    @apply bg-energy-red text-white hover:bg-energy-orange shadow-[0_0_15px_rgba(255,0,0,0.4)] hover:shadow-[0_0_20px_rgba(255,140,0,0.6)] transition-all;
+  }
+
+  .glow-purple {
+    @apply shadow-[0_0_30px_rgba(139,92,246,0.3)];
+  }
+
+  .glow-yellow {
+    @apply shadow-[0_0_15px_rgba(255,215,0,0.4)];
+  }
+}
