@@ -57,7 +57,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
             <div className="w-8 h-8 bg-gradient-to-br from-ai-purple to-ai-blue rounded-lg flex items-center justify-center font-bold text-white shadow-lg glow-purple">
               C
             </div>
-            <span className="font-bold tracking-tight text-white">Creator Copilot</span>
+            <span className="font-bold tracking-tight text-white">🚀 Creator Copilot</span>
           </Link>
         </div>
 

@@ -13,7 +13,7 @@ export default function Navbar() {
                 C
               </div>
               <span className="text-xl font-bold tracking-tight text-white hidden sm:block">
-                Creator Copilot <span className="text-ai-purple">AI</span>
+                🚀 Creator Copilot <span className="text-ai-purple">AI</span>
               </span>
             </Link>
           </div>

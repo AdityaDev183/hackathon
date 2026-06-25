@@ -94,7 +94,7 @@ export default function Home() {
             <div className="relative p-12 md:p-20 text-center">
               <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">Ready to scale your content?</h2>
               <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
-                Join 10,000+ creators building the future with Creator Copilot AI.
+                Join 10,000+ creators building the future with 🚀 Creator Copilot AI.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Button size="lg" className="btn-energy-red h-14 px-10 rounded-full text-lg font-bold">

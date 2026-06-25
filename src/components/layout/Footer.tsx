@@ -10,7 +10,7 @@ export default function Footer() {
               <div className="w-6 h-6 bg-gradient-to-br from-ai-purple to-ai-blue rounded flex items-center justify-center font-bold text-xs text-white">
                 C
               </div>
-              <span className="font-bold tracking-tight text-white">Creator Copilot</span>
+              <span className="font-bold tracking-tight text-white">🚀 Creator Copilot</span>
             </div>
             <p className="text-gray-500 text-sm">
               Build Smarter. Faster. With AI. Replaces your entire content team with one AI copilot.
@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-xs">
-            © {new Date().getFullYear()} Creator Copilot AI. All rights reserved.
+            © {new Date().getFullYear()} 🚀 Creator Copilot AI. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 flex space-x-6">
             {/* Social Icons Placeholder */}
